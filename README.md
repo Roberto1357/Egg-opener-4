@@ -205,8 +205,7 @@
                 confetti.className = "confetti-piece";
                 confetti.style.left = Math.random() * 100 + "vw";
                 confetti.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
-                confetti.style.animationDuration = Math.random() * 2 + 1 + "s";
-                confettiContainer.appendChild(confetti);
+                confetti.style.animationDuration = Math.random() * 
             }
 
             // Remove confetti after 3 seconds
